@@ -143,8 +143,6 @@ Conflicts: pulseaudio, pipewire-media-session
 Description: The backbone of PikaOS
 Suggests:
 ## Make pika-gnome-desktop-minimal deps not go to autoremove
-# BaseOS
-    pika-baseos,
 # Basic Session
     pika-session,
     pika-settings,
@@ -218,8 +216,6 @@ Suggests:
 ## Last to replace mime information
     file-roller,
 ## Make pika-kde-desktop-minimal deps not go to autoremove
-# BaseOS
-    pika-baseos,
 # Basic Session
     kde-plasma-desktop,
     kamera,
@@ -301,9 +297,15 @@ Suggests:
     kaccounts-integration,
     plasma-supergfxctl,
     plasma-browser-integration,
-    plasma-calendar-addons,
-    plasma-dataengines-addons,
     dbus-x11,
+    plasma-widgets-addons,
+    plasma-wallpapers-addons,
+    plasma-runners-addons,
+    plasma-dataengines-addons,
+    plasma-calendar-addons,
+    kwin-addons,
+    kdeplasma-addons-data,
+    libunity9,
 # Applications
     kwalletmanager,
     print-manager,
