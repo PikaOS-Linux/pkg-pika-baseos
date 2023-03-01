@@ -1,3 +1,10 @@
+pika-baseos (2.2.0) kinetic; urgency=medium
+
+  * Add env var fixer
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +0300
+
+
 pika-baseos (2.1.0) kinetic; urgency=medium
 
   * Update for pika-kde-desktop
