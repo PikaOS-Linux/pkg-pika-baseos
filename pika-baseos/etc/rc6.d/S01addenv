@@ -1,5 +1,0 @@
-#! /bin/bash
-
-sed -i '/#startenvd/,/#endenvd/d'  /etc/environment
-
-echo -e "#startenvd\n$(cat /etc/environment.d/*)\n#endenvd" >> /etc/environment
