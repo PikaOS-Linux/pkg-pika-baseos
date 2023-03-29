@@ -1,0 +1,20 @@
+#! /bin/bash
+
+set -e
+
+if [[ -z $1 ]]
+then
+echo 'Usage: pika-chsh shell user'
+echo 'Example: pika-chsh fish smith'
+else
+if [[ ! -f /usr/local/bin/"$1"login ]]
+then
+touch /usr/local/bin/"$1"login
+echo '#! /bin/bash -l' > /usr/local/bin/"$1"login
+echo "exec -l $1" $(echo -e '"$@"') >> /usr/local/bin/"$1"login
+echo "/usr/local/bin/"$1"login" | tee -a /etc/shells
+chmod -x /usr/local/bin/"$1"login
+fi
+
+chsh -s  /usr/local/bin/"$1"login $2
+fi

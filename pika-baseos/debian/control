@@ -115,7 +115,6 @@ Depends: ${misc:Depends},
     net-tools,
     libproxy1-plugin-gsettings,
     libproxy1-plugin-networkmanager,
-    network-manager-wireguard-plugin,
     wireless-tools,
     rfkill,
     gstreamer1.0-plugins-base-apps,
@@ -125,21 +124,8 @@ Depends: ${misc:Depends},
     samba-common-bin,
     wpasupplicant,
 ## Audio and codecs
-    libasound2-plugins,
-    libldacbt-abr2,
-    libldacbt-enc2,
-    libfreeaptx0,
-    libspa-0.2-bluetooth,
-    libspa-0.2-jack,
-    pipewire,
-    pipewire-alsa,
-    pipewire-jack,
-    pipewire-pulse,
-    pulseaudio-utils,
-    wireplumber,
-    gstreamer1.0-alsa,
-Recommends: power-profiles-daemon
-Conflicts: pulseaudio, pipewire-media-session
+    pika-audio-pipewire | pika-audio-legacy
+Recommends: power-profiles-daemon, network-manager-wireguard-plugin
 Description: The backbone of PikaOS
 Suggests:
 ## Make pika-gnome-desktop-minimal deps not go to autoremove

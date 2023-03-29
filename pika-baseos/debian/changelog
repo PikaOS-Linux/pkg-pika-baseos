@@ -1,3 +1,9 @@
+pika-baseos (2.3.2) kinetic; urgency=medium
+
+  * Put wiregaurd as recommends not deps, add pika-audio, and add pika-chsh
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +0300
+
 pika-baseos (2.3.1) kinetic; urgency=medium
 
   * Disable system76-hidpi by default
