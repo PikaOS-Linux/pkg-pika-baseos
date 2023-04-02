@@ -1,3 +1,9 @@
+pika-baseos (2.3.3) lunar; urgency=medium
+
+  * Just rebuild in lunar
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (2.3.2) kinetic; urgency=medium
 
   * Put wiregaurd as recommends not deps, add pika-audio, and add pika-chsh
