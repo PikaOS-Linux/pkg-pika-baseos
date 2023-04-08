@@ -1,3 +1,10 @@
+pika-baseos (2.3.4) kinetic; urgency=medium
+
+  * Use generic xdg
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
+
 pika-baseos (2.3.2) kinetic; urgency=medium
 
   * Put wiregaurd as recommends not deps, add pika-audio, and add pika-chsh
