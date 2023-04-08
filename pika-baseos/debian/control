@@ -40,8 +40,8 @@ Depends: ${misc:Depends},
     ibus-table,
 ## XDG
     policykit-desktop-privileges,
-    xdg-desktop-portal-gnome,
-    xdg-user-dirs-gtk,
+    xdg-desktop-portal,
+    xdg-user-dirs,
     xdg-utils,
     xdg-terminal,
 ## Filesystems
