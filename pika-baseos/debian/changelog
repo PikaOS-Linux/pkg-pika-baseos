@@ -1,3 +1,9 @@
+pika-baseos (2.3.6) lunar; urgency=medium
+
+  * Add refind
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (2.3.5) lunar; urgency=medium
 
   * Use generic xdg
