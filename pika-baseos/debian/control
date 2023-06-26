@@ -35,6 +35,7 @@ Depends: ${misc:Depends},
     libapr1,
     libaprutil1, 
     libxcb-cursor0,
+    ananicy-rules,
 ## gvfs backends
     gvfs-backends,
     gvfs-fuse,
