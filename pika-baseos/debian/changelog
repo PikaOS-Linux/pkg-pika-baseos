@@ -1,3 +1,9 @@
+pika-baseos (2.3.8-99pika.lunar1) lunar; urgency=medium
+
+  * Add nvidia rules
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (2.3.7) lunar; urgency=medium
 
   * Add ananicy-cpp + rules
