@@ -67,7 +67,7 @@ Depends: ${misc:Depends},
 ## Display and Graphics
     pika-amdgpu-core,
     xorg,
-    mesa-pika | mesa-stable | mesa-git | mesa-custom,
+    mesa-hybrid | mesa-stable | mesa-git | mesa-custom,
     wayland-protocols,
     xwayland,
     hidpi-daemon,
