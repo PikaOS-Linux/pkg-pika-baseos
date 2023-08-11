@@ -1,6 +1,6 @@
-pika-baseos (2.3.8-99pika.lunar1) lunar; urgency=medium
+pika-baseos (2.4.0-99pika1.lunar) lunar; urgency=medium
 
-  * Add nvidia rules
+  * Add new Mesas
 
  -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
 
