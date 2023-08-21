@@ -1,3 +1,10 @@
+pika-baseos (2.4.5-99pika1.lunar) lunar; urgency=medium
+
+  * Add new gpu configs
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
+
 pika-baseos (2.4.4-99pika1.lunar) lunar; urgency=medium
 
   * Add new Mesas

@@ -66,6 +66,8 @@ Depends: ${misc:Depends},
     mousetweaks,
 ## Display and Graphics
     pika-amdgpu-core,
+    pika-amdgpu-config,
+    pika-nvidia-config,
     xorg,
     mesa-hybrid | mesa-stable | mesa-git | mesa-custom | mesa-hybrid-no-march | mesa-stable-no-march | mesa-git-no-march | mesa-custom-no-march,
     wayland-protocols,
@@ -113,7 +115,7 @@ Depends: ${misc:Depends},
     wpasupplicant,
 ## Audio and codecs
     pika-audio-pipewire | pika-audio-legacy
-Recommends: power-profiles-daemon, network-manager-wireguard-plugin
+Recommends: power-profiles-daemon
 Description: The backbone of PikaOS
 Suggests:
 ## Make pika-gnome-desktop-minimal deps not go to autoremove
