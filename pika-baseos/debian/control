@@ -77,6 +77,7 @@ Depends: ${misc:Depends},
 ## Power saving and laptops
     laptop-detect,
     supergfxctl,
+    switcheroo-control,
     acpi,
     acpi-call-dkms,
 ## Printing

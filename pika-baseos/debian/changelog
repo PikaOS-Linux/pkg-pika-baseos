@@ -1,3 +1,10 @@
+pika-baseos (2.5.1-100pika1) pikauwu; urgency=medium
+
+  * Add optimus commands
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
+
 pika-baseos (2.5.0-100pika1) pikauwu; urgency=medium
 
   * pikauwu release
