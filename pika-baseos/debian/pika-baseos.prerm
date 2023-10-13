@@ -1,4 +1,4 @@
 #! /bin/bash
-systemctl disable --now nvidia-pika-prime
-systemctl unmask gpu-manager
-systemctl enable --now gpu-manager
+systemctl disable --now nvidia-pika-prime || true
+systemctl unmask gpu-manager || true
+systemctl enable --now gpu-manager || true
