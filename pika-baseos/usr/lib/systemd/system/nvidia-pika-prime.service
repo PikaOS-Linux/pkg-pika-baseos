@@ -1,0 +1,9 @@
+[Unit]
+Description=Nvidia prime offload pika-style.
+Conflicts=gpu-manager.service
+
+[Service]
+ExecStart=rm -rfv /usr/share/X11/xorg.conf.d/11-nvidia-prime.conf
+
+[Install]
+WantedBy=multi-user.target

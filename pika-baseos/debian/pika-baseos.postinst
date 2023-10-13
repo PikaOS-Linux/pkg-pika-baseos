@@ -1,0 +1,4 @@
+#! /bin/bash
+systemctl disable --now gpu-manager
+systemctl mask gpu-manager
+systemctl enable --now nvidia-pika-prime
