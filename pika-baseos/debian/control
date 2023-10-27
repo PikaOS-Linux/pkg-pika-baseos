@@ -37,6 +37,7 @@ Depends: ${misc:Depends},
     libxcb-cursor0,
     ananicy-rules,
     booster,
+    python3-cairo,
 ## gvfs backends
     gvfs-backends,
     gvfs-fuse,
