@@ -1,3 +1,9 @@
+pika-baseos (2.5.4-100pika8) pikauwu; urgency=medium
+
+  * Remove ACPI-CALL-DKMS as it is built into the kernel
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (2.5.4-100pika7) pikauwu; urgency=medium
 
   * Add optimus commands
