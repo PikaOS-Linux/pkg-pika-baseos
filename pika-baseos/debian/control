@@ -79,7 +79,6 @@ Depends: ${misc:Depends},
     supergfxctl,
     switcheroo-control,
     acpi,
-    acpi-call-dkms,
 ## Printing
     cups-bsd,
     cups,
