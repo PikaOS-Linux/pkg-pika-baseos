@@ -1,3 +1,9 @@
+pika-baseos (3.0.0-101pika1) pika; urgency=medium
+
+  * PikaOS 4
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (2.5.4-100pika8) pikauwu; urgency=medium
 
   * Remove ACPI-CALL-DKMS as it is built into the kernel
