@@ -1,3 +1,9 @@
+pika-baseos (3.0.2-101pika1) pika; urgency=medium
+
+  * fix some depends
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +030
+
 pika-baseos (3.0.1-101pika1) pika; urgency=medium
 
   * fix autocomplete and PATH
